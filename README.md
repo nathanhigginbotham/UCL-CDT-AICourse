@@ -1,6 +1,6 @@
 # UCL-AICourse 🧠
 
-> A free, hands-on introduction to artificial intelligence and machine learning — built for secondary school students by PhD Students from [Data Intensive Science & Industry (DISI)]([https://www.ucl.ac.uk/disi](https://www.ucl.ac.uk/data-intensive-science-industry)) at University College London.
+> A free, hands-on introduction to artificial intelligence and machine learning — built for secondary school students by PhD Students from [Data Intensive Science & Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry) at University College London.
 
 **No installation. No experience needed. Just curiosity.**
 
