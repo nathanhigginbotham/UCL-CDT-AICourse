@@ -1,6 +1,6 @@
 # UCL-AICourse 🧠
 
-> A free, hands-on introduction to artificial intelligence and machine learning — built for secondary school students by PhD Students from [Data Intensive Science & Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry) at University College London.
+> A free, hands-on introduction to artificial intelligence and machine learning — built for secondary school students by PhD Students from [Centre for Data Intensive Science and Industry (DISI)](https://www.ucl.ac.uk/data-intensive-science-industry) at University College London.
 
 **No installation. No experience needed. Just curiosity.**
 
@@ -65,11 +65,9 @@ pip install -r requirements.txt
 
 **Core dependencies:** `numpy`, `pandas`, `matplotlib`, `scikit-learn`, `torch`, `torchvision`
 
----
-
 ## Who Made This?
 
-This course was created by the **Department of Information Studies (DISI) at UCL**. It was initially developed and trialled with [ORBYTS](https://www.orbyts.org) pupils before public release.
+This course's creation was a result of the Centre  **Centre for Data Intensive Science and Indusrty (DISI) at UCL**. It was initially developed and trialled with [ORBYTS](https://www.orbyts.org) pupils before public release.
 
 ---
 
