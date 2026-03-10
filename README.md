@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ## Who Made This?
 
-This course's creation was a result of the **Centre for Data Intensive Science and Industry (DISI) at UCL**. It was initially developed and trialled with [ORBYTS](https://www.orbyts.org) pupils before public release.
+This course was created by the **Centre for Data Intensive Science and Industry (DISI) at UCL**. It was initially developed and trialled with [ORBYTS](https://www.orbyts.org) pupils before public release.
 
 ---
 
