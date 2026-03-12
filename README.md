@@ -4,7 +4,7 @@
 
 **No installation. No experience needed. Just curiosity.**
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![UCL DISI](https://img.shields.io/badge/UCL-DISI-purple)](#)
 
@@ -21,7 +21,7 @@ By the end, you'll have:
 - Built and broken a neural network
 - Thought critically about bias and fairness in AI
 
-All notebooks run in **Google Colab** — nothing to install, free GPU included.
+All notebooks run in **Kaggle Notebooks** — nothing to install, free GPU included.
 
 🌐 **Course landing page:** [ucl.ac.uk/disi/ai-training-course](https://www.ucl.ac.uk/disi/ai-training-course)
 
@@ -33,7 +33,7 @@ The course follows a simple loop throughout: **Code → Observe → Explain → 
 
 | Module | Title | Topics |
 |--------|-------|--------|
-| **0** | Welcome to AI | What is ML? How to use Colab |
+| **0** | Welcome to AI | What is ML? How to use Kaggle |
 | **1** | Your First AI Model | Train a classifier, features & labels |
 | **2** | Making Predictions | Regression, plotting results |
 | **3** | Improving a Model | Parameters, overfitting |
@@ -53,7 +53,7 @@ The course follows a simple loop throughout: **Code → Observe → Explain → 
 
 ## Getting Started
 
-Every notebook has an **Open in Colab** button at the top. Just click and go.
+Every notebook has an **Open in Kaggle** button at the top. Just click and go.
 
 If you'd like to run things locally:
 
