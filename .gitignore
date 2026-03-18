@@ -1,1 +1,4 @@
 Crash Course in AI Lesson Structure.docx
+.ipynb_checkpoints
+__pycache__
+openml/
