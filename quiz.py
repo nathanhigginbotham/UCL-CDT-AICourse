@@ -87,3 +87,50 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+
+def run_b05_quiz():
+    questions = [
+        {
+            "question": "What is data splitting?",
+            "options": [
+                "Dividing a dataset into a training set and a testing set",
+                "Deleting data that the model found too difficult",
+                "Breaking long code lines into multiple parts",
+                "Replacing numbers with categories"
+            ],
+            "answer": "Dividing a dataset into a training set and a testing set"
+        },
+        {
+            "question": "Why is testing on the same data a model trained on a problem?",
+            "options": [
+                "The model can cheat by memorizing the data",
+                "It takes too much time to run",
+                "The model might learn the wrong pattern",
+                "Testing must always be done on less data"
+            ],
+            "answer": "The model can cheat by memorizing the data"
+        },
+        {
+            "question": "What happens to a model's accuracy when tested on new, unseen data?",
+            "options": [
+                "It usually goes down because making new predictions is harder",
+                "It usually goes up because the model likes new data",
+                "It always STAYS at exactly 100%",
+                "It always drops to exactly 0%"
+            ],
+            "answer": "It usually goes down because making new predictions is harder"
+        },
+        {
+            "question": "What does generalisation mean?",
+            "options": [
+                "A model's ability to make good predictions on new, unseen data",
+                "Training the model on every single piece of data",
+                "Using the same model for everything",
+                "Ignoring differences in the data"
+            ],
+            "answer": "A model's ability to make good predictions on new, unseen data"
+        }
+    ]
+    run_quiz(questions)
+
