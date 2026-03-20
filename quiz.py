@@ -87,3 +87,49 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+
+def run_b07_quiz():
+    questions = [
+        {
+            "question": "How does a decision tree make predictions?",
+            "options": [
+                "By asking a series of yes/no questions about the data",
+                "By calculating the average of all measurements",
+                "By randomly guessing the answer",
+                "By memorising every flower in the dataset"
+            ],
+            "answer": "By asking a series of yes/no questions about the data"
+        },
+        {
+            "question": "What does the depth of a decision tree control?",
+            "options": [
+                "The maximum number of questions the tree can ask",
+                "The number of flowers in the dataset",
+                "The colour of the tree diagram",
+                "How fast the tree trains"
+            ],
+            "answer": "The maximum number of questions the tree can ask"
+        },
+        {
+            "question": "What is overfitting?",
+            "options": [
+                "When a model memorises training data and does worse on new data",
+                "When a model is too simple to learn anything",
+                "When you use too little training data",
+                "When the test accuracy is higher than training accuracy"
+            ],
+            "answer": "When a model memorises training data and does worse on new data"
+        },
+        {
+            "question": "What is a key advantage of decision trees over neural networks?",
+            "options": [
+                "You can see exactly how they make each decision",
+                "They are always more accurate",
+                "They don't need any training data",
+                "They can only be used for flower classification"
+            ],
+            "answer": "You can see exactly how they make each decision"
+        }
+    ]
+    run_quiz(questions)
