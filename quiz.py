@@ -87,3 +87,49 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+
+def run_b04_quiz():
+    questions = [
+        {
+            "question": "Why do we explore data before building a model?",
+            "options": [
+                "To understand structure and spot patterns first",
+                "To make the computer run faster",
+                "To avoid using any graphs",
+                "To skip cleaning the dataset"
+            ],
+            "answer": "To understand structure and spot patterns first"
+        },
+        {
+            "question": "What does a histogram help us see?",
+            "options": [
+                "How values are distributed for one feature",
+                "The exact model accuracy",
+                "Only the class labels",
+                "How to split train and test sets"
+            ],
+            "answer": "How values are distributed for one feature"
+        },
+        {
+            "question": "What does a scatter plot show best?",
+            "options": [
+                "The relationship between two features",
+                "How many rows are in a file",
+                "Only the average value",
+                "The speed of training"
+            ],
+            "answer": "The relationship between two features"
+        },
+        {
+            "question": "In this lesson, what are features?",
+            "options": [
+                "Measured columns in the dataset",
+                "The model's final prediction",
+                "The buttons in the notebook",
+                "The quiz score summary"
+            ],
+            "answer": "Measured columns in the dataset"
+        }
+    ]
+    run_quiz(questions)
