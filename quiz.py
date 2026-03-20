@@ -87,3 +87,49 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+
+def run_b05_quiz():
+    questions = [
+        {
+            "question": "What is regression used for?",
+            "options": [
+                "Predicting numerical values",
+                "Sorting items into categories",
+                "Compressing image files",
+                "Counting missing values"
+            ],
+            "answer": "Predicting numerical values"
+        },
+        {
+            "question": "In this lesson, what was the feature?",
+            "options": [
+                "Study hours",
+                "Predicted score",
+                "Mean squared error",
+                "Model intercept"
+            ],
+            "answer": "Study hours"
+        },
+        {
+            "question": "What does prediction error describe?",
+            "options": [
+                "The difference between true and predicted values",
+                "How many rows are in the dataset",
+                "How long model training took",
+                "The number of model features"
+            ],
+            "answer": "The difference between true and predicted values"
+        },
+        {
+            "question": "Which result usually suggests a better regression model?",
+            "options": [
+                "Lower error values",
+                "Higher number of test samples",
+                "Lower number of features",
+                "Higher intercept value"
+            ],
+            "answer": "Lower error values"
+        }
+    ]
+    run_quiz(questions)
