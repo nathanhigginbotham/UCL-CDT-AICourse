@@ -87,3 +87,49 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+
+def run_b08_quiz():
+    questions = [
+        {
+            "question": "What is a random forest?",
+            "options": [
+                "Many decision trees that vote together on the prediction",
+                "A single very deep decision tree",
+                "A forest of randomly planted trees",
+                "A model that only works on image data"
+            ],
+            "answer": "Many decision trees that vote together on the prediction"
+        },
+        {
+            "question": "Why does a random forest usually beat a single decision tree?",
+            "options": [
+                "The trees make different mistakes, so voting cancels out errors",
+                "Each tree in the forest is more accurate than a single tree",
+                "The forest uses a completely different algorithm",
+                "It always trains faster"
+            ],
+            "answer": "The trees make different mistakes, so voting cancels out errors"
+        },
+        {
+            "question": "What is ensemble learning?",
+            "options": [
+                "Combining multiple models to get a better result",
+                "Training one model for a very long time",
+                "Using only one feature at a time",
+                "Splitting the data into many small pieces"
+            ],
+            "answer": "Combining multiple models to get a better result"
+        },
+        {
+            "question": "What happens when you keep adding more trees to a random forest?",
+            "options": [
+                "Accuracy improves at first but then levels off",
+                "Accuracy keeps getting better forever",
+                "Accuracy gets worse with more trees",
+                "Nothing changes after the first tree"
+            ],
+            "answer": "Accuracy improves at first but then levels off"
+        }
+    ]
+    run_quiz(questions)
