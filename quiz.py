@@ -87,3 +87,59 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+
+def run_b09_quiz():
+    questions = [
+        {
+            "question": "What is the primary function of a hidden layer in a neural network?",
+            "options": [
+                "To receive data from the outside world",
+                "To extract complex patterns between inputs and outputs",
+                "To define the final output category",
+                "To scale the raw features"
+            ],
+            "answer": "To extract complex patterns between inputs and outputs"
+        },
+        {
+            "question": "What does a 'Loss Function' tell the model?",
+            "options": [
+                "How many neurons are in the network",
+                "How far its prediction is from the correct target",
+                "The exact values of the weights",
+                "The speed of the training processor"
+            ],
+            "answer": "How far its prediction is from the correct target"
+        },
+        {
+            "question": "Which of these components is responsible for updating the weights based on the loss in order for the model to learn?",
+            "options": [
+                "The Activation Function",
+                "The Dataset",
+                "The Optimizer",
+                "The Features"
+            ],
+            "answer": "The Optimizer"
+        },
+        {
+            "question": "In our Iris experiment, why did the 'Deep Network' often perform better than the 'SLP'?",
+            "options": [
+                "It had 16 times as much data",
+                "It was running on a faster computer",
+                "The hidden layer allowed it to learn more complex relationships",
+                "It didn't use an activation function"
+            ],
+            "answer": "The hidden layer allowed it to learn more complex relationships"
+        },
+        {
+            "question": "If the Loss curve stays flat during training, what might be happening?",
+            "options": [
+                "The model is learning perfectly",
+                "The model is not learning because weights aren't being adjusted effectively",
+                "The model has already reached 100% accuracy",
+                "The dataset is too small"
+            ],
+            "answer": "The model is not learning because weights aren't being adjusted effectively"
+        }
+    ]
+    run_quiz(questions)
