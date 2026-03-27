@@ -186,16 +186,6 @@ def run_b10_quiz():
                 "By only looking at the very first pixel"
             ],
             "answer": "By sliding 'filters' or 'kernels' across the image"
-        },
-        {
-            "question": "Which of these models dropped its error (Loss) faster in our experiment?",
-            "options": [
-                "The Linear (Flat) model",
-                "The CNN model",
-                "They were exactly the same",
-                "Neither model worked"
-            ],
-            "answer": "The CNN model"
         }
     ]
     run_quiz(questions)
