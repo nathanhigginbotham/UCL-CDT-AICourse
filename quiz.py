@@ -87,3 +87,48 @@ def run_b02_quiz():
         }
     ]
     run_quiz(questions)
+
+def run_b11_quiz():
+    questions = [
+        {
+            "question": "What does feature engineering mean?",
+            "options": [
+                "Creating new features or transforming existing ones to make better models",
+                "Buying faster computers to train models",
+                "Deleting data we don't like",
+                "Drawing diagrams"
+            ],
+            "answer": "Creating new features or transforming existing ones to make better models"
+        },
+        {
+            "question": "Why would we create a new variable like Rooms_Per_Person?",
+            "options": [
+                "Because the model couldn't figure out the relationship as easily from the separate numbers",
+                "To make the table larger so the model complains less",
+                "Because computers require at least 10 columns to run",
+                "Because average rooms wasn't a number"
+            ],
+            "answer": "Because the model couldn't figure out the relationship as easily from the separate numbers"
+        },
+        {
+            "question": "Why might we log-transform a feature like Population?",
+            "options": [
+                "To squish extreme outliers so they don't confuse the model",
+                "To delete the population column safely",
+                "Because population isn't real",
+                "To change words into numbers"
+            ],
+            "answer": "To squish extreme outliers so they don't confuse the model"
+        },
+        {
+            "question": "What happens when our engineered features are good?",
+            "options": [
+                "The model's predictions get more accurate (error goes down)",
+                "The computer breaks",
+                "We get a 100% error rate",
+                "The model runs slower but predicts worse"
+            ],
+            "answer": "The model's predictions get more accurate (error goes down)"
+        }
+    ]
+    run_quiz(questions)
