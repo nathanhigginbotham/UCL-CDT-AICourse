@@ -91,44 +91,44 @@ def run_b02_quiz():
 def run_b11_quiz():
     questions = [
         {
-            "question": "What does feature engineering mean?",
+            "question": "What is Feature Construction?",
             "options": [
-                "Creating new features or transforming existing ones to make better models",
-                "Buying faster computers to train models",
-                "Deleting data we don't like",
-                "Drawing diagrams"
+                "The process of extracting or summarising information (features) from raw data.",
+                "Transforming skewed data into a bell curve.",
+                "Creating a new neural network.",
+                "Deleting all missing values."
             ],
-            "answer": "Creating new features or transforming existing ones to make better models"
+            "answer": "The process of extracting or summarising information (features) from raw data."
         },
         {
-            "question": "Why would we create a new variable like Rooms_Per_Person?",
+            "question": "Why did we create the 'FamilySize' feature specifically?",
             "options": [
-                "Because the model couldn't figure out the relationship as easily from the separate numbers",
-                "To make the table larger so the model complains less",
-                "Because computers require at least 10 columns to run",
-                "Because average rooms wasn't a number"
+                "To capture the 'Social Context' with a single, stronger predicting number.",
+                "To make the dataset smaller and easier to load.",
+                "Because Neural Networks cannot read more than 3 columns.",
+                "To count how many lifeboats were available."
             ],
-            "answer": "Because the model couldn't figure out the relationship as easily from the separate numbers"
+            "answer": "To capture the 'Social Context' with a single, stronger predicting number."
         },
         {
-            "question": "Why might we log-transform a feature like Population?",
+            "question": "What does Standardization achieve in Step 5?",
             "options": [
-                "To squish extreme outliers so they don't confuse the model",
-                "To delete the population column safely",
-                "Because population isn't real",
-                "To change words into numbers"
+                "It adjusts the scale of all numbers so the neural network treats them equally.",
+                "It deletes all columns that don't follow standard rules.",
+                "It sorts the passengers alphabetically by name.",
+                "It adds 1 to every single number in the table."
             ],
-            "answer": "To squish extreme outliers so they don't confuse the model"
+            "answer": "It adjusts the scale of all numbers so the neural network treats them equally."
         },
         {
-            "question": "What happens when our engineered features are good?",
+            "question": "In the Titanic project, what is the 'Target' we are trying to predict?",
             "options": [
-                "The model's predictions get more accurate (error goes down)",
-                "The computer breaks",
-                "We get a 100% error rate",
-                "The model runs slower but predicts worse"
+                "Survival (Yes / No)",
+                "The ticket Fare amount",
+                "The passenger's Age",
+                "How many siblings they had"
             ],
-            "answer": "The model's predictions get more accurate (error goes down)"
+            "answer": "Survival (Yes / No)"
         }
     ]
     run_quiz(questions)
